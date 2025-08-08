@@ -1,0 +1,34 @@
+
+.table, .caption, .row, .title, .data, .more {
+    border:1px solid black;
+    position: relative;
+}
+
+.caption {
+    background-color: goldenrod;
+}
+
+.title {
+    background-color: gold;
+}
+
+.data, .title {
+    padding: 0 10px;
+    min-width: 100px;
+}
+
+.more {
+    width:100px;
+    background-color: rgb(227, 226, 226);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.more:hover {
+    background-color: rgb(211, 210, 210);
+}
+
+.more:active {
+    background-color: rgb(227, 226, 226);
+}
